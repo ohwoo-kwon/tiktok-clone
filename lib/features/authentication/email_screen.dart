@@ -8,10 +8,10 @@ class EmailScreen extends StatefulWidget {
   const EmailScreen({super.key});
 
   @override
-  State<EmailScreen> createState() => _EmailnState();
+  State<EmailScreen> createState() => _EmailState();
 }
 
-class _EmailnState extends State<EmailScreen> {
+class _EmailState extends State<EmailScreen> {
   final TextEditingController _emailController = TextEditingController();
   String _email = '';
 
